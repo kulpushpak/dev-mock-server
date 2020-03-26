@@ -1,0 +1,26 @@
+{
+  "name": "dev-mock-server",
+  "version": "1.0.1",
+  "description": "This is mock server to help you in developing front-end application without actual backend service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js "
+  },
+  "bin": {
+    "dev-mock-server": "./cli.js"
+  },
+  "keywords": [
+    "mock-server",
+    "node-server"
+  ],
+  "author": "Pushpak",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "commander": "^5.0.0",
+    "express": "^4.17.1",
+    "minimist": "^1.2.5",
+    "chalk": "^3.0.0"
+  }
+}
